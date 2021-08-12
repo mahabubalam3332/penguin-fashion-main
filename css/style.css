@@ -88,3 +88,136 @@ a.btn {
 a.btn:hover {
     background: linear-gradient(180deg, #a8b476 0%, #94a359 100%);
 }
+/* womens gallary */
+
+.womens_glalary {
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFBF0;
+    padding: 39px 135px;
+    
+}
+.womens_title h2 {
+    font-size: 50px;
+    text-align: left;
+    font-family: var(--secondary);
+    font-weight: 600;
+    line-height: 56px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.womens-corner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.womens_desplay img {
+    width: 293px;
+    height:293px;
+    background: #F1F1F1;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.womens_desplay {
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin: 15px;
+}
+.womens_desplay h2 {
+    text-align: left;
+    font-size: 24px;
+    font-family: roboto;
+    line-height: 28px;
+    font-weight: 600;
+    padding: 5px;
+}
+.womens_desplay p {
+    font-size: 20px;
+    font-family: robboto;
+    text-align: left;
+    padding: 5px;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.price h3 {
+    display: inline-block;
+    padding: 16px 13px;
+    margin-top: 24px;
+    color: #FABE4C;
+    font-size: 36px;
+    line-height:42px;
+    font-weight: 900;
+    text-decoration: none;
+}
+/* Mens-gallary */
+.mens_glalary {
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFBF0;
+    padding: 39px 135px;
+    
+}
+.mens_title h2 {
+    font-size: 50px;
+    text-align: left;
+    font-family: var(--secondary);
+    font-weight: 600;
+    line-height: 56px;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.mens-corner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mens_desplay img {
+    width: 293px;
+    height:293px;
+    background: #F1F1F1;
+    border-radius: 20px;
+    margin-top: 15px;
+}
+.mens_desplay {
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    margin: 15px;
+}
+.mens_desplay h2 {
+    text-align: left;
+    font-size: 24px;
+    font-family: roboto;
+    line-height: 28px;
+    font-weight: 600;
+    padding: 5px;
+}
+.mens_desplay p {
+    font-size: 20px;
+    font-family: robboto;
+    text-align: left;
+    padding: 5px;
+}
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.price h3 {
+    display: inline-block;
+    padding: 16px 13px;
+    margin-top: 24px;
+    color: #FABE4C;
+    font-size: 36px;
+    line-height:42px;
+    font-weight: 900;
+    text-decoration: none;
+}
