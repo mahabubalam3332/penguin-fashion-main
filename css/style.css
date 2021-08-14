@@ -4,8 +4,8 @@
     outline: o;
 }
 :root{
-    --primary-fonts:Inter;
-    --secondary-fonts:Bebas+Neue;
+    --primary-fonts:"Inter";
+    --secondary-fonts:"Bebas+Neue";
 
     --primary-color: #FFFBF0;
     --secondary-color:#E5E5E5;
@@ -20,7 +20,7 @@ body{
     background-color: #E5E5E5;
 }
 .header_inner {
-    margin: 3%;
+    margin:0 3%;
 }
 .content {
     display: flex;
@@ -89,12 +89,19 @@ a.btn:hover {
     background: linear-gradient(180deg, #a8b476 0%, #94a359 100%);
 }
 /* womens gallary */
-
+.body_section {
+    /* margin-top: 39px; */
+    margin-left: 135px;
+    margin-right: 135px;
+    background: #fff;
+    margin: 0 3%;
+}
+.womens_inner {
+    padding: 39px 135px;
+}
 .womens_glalary {
     justify-content: space-between;
     align-items: center;
-    background: #FFFBF0;
-    padding: 39px 135px;
     
 }
 .womens_title h2 {
@@ -156,12 +163,12 @@ a.btn:hover {
     text-decoration: none;
 }
 /* Mens-gallary */
+.mens_inner{
+    padding: 39px 135px;
+}
 .mens_glalary {
     justify-content: space-between;
-    align-items: center;
-    background: #FFFBF0;
-    padding: 39px 135px;
-    
+    align-items: center; 
 }
 .mens_title h2 {
     font-size: 50px;
@@ -220,4 +227,37 @@ a.btn:hover {
     line-height:42px;
     font-weight: 900;
     text-decoration: none;
+}
+/* bottom-part */
+.bottom-inner {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 39px 135px;
+}
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    box-sizing: border-box;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+.icon_title h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    font-family: roboto;
+    padding: 5px 25px;
+}
+.icon_title p {
+    font-size: 16px;
+    font-family: roboto;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 5px 25px;
+}
+.bottom_right img {
+    width: 592px;
 }
