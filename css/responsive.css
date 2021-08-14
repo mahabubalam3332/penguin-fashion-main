@@ -1,0 +1,142 @@
+@media only screen and (max-width:400px){
+    /* header */
+    .content {
+        grid-template-columns: repeat(1,1fr);
+        background: #FFFBF0;
+        padding: 20px;
+    }
+    /* banner */
+    .banner-inner {
+        grid-template-columns: repeat(1,1fr);
+        padding:5px;
+    }
+    .banner-left h1 {
+        font-size: 40px;
+        text-transform: uppercase;
+    }
+    .banner-right img {
+        width: 347px;
+    }
+    /* womens gallary */
+    .womens_inner {
+        padding: 7px;
+    }
+    .womens_title h2 {
+        font-size: 33px;
+        text-align: center;
+        line-height: 56px;
+        padding: 20px;
+        text-transform: uppercase;
+    }
+    .womens-corner {
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* mens-inner */
+    .mens_inner{
+        padding: 7px;
+    }
+    .mens_title h2 {
+        font-size: 33px;
+        text-align: left;
+        line-height: 56px;
+        padding: 20px;
+        text-transform: uppercase;
+    }
+    .mens-corner {
+        grid-template-columns: repeat(1,1fr);
+    }
+    /* bottom */
+    .bottom-inner {
+        grid-template-columns: repeat(1,1fr);
+        padding: 2px;
+    }
+    .icon {
+        justify-content: start;
+    }
+    .bottom_right img {
+        width: 356px;
+        padding: 10px;
+    }
+    /* button */
+    a.btn {
+        display: inline-block;
+        padding: 6px 7px;
+        background: linear-gradient(180deg, #a8b476 50%, #94a359 50%);
+        margin-top: 24px;
+        border-radius: 10px;
+        color: #fff;
+        font-size: 16px;
+        line-height: 24px;
+        text-decoration: none;
+    }
+}
+
+@media only screen and (min-width:792px) and (max-width:992px){
+    .content {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        background: #FFFBF0;
+        padding: 20px 20px;
+    }
+    /* banner */
+    .banner-inner {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: space-between;
+        align-items: center;
+        background: #FFFBF0;
+        padding: 0 5px;
+    }
+    .banner-left h1 {
+        font-size: 41px;
+        font-family: var(--secondary-fonts);
+        text-transform: uppercase;
+    }
+    .banner-right img {
+        width: 342px;
+    }
+    /* womens gallary */
+    .womens_inner {
+        padding: 0px;
+    }
+    .womens-corner {
+        grid-template-columns: repeat(2,1fr);
+    }
+    /* mens-inner */
+    .mens_inner{
+        padding: 7px;
+    }
+    .mens_title h2 {
+        font-size: 46px;
+        text-align: left;
+    }
+    .mens-corner {
+        grid-template-columns: repeat(2,1fr);
+    }
+    /* bottom */
+    .bottom-inner {
+        grid-template-columns: repeat(2,1fr);
+        padding: 2px;
+    }
+    .icon {
+        justify-content: start;
+    }
+    .bottom_right img {
+        width: 356px;
+        padding: 10px;
+    }
+    /* button */
+    a.btn {
+        display: inline-block;
+        padding: 8px 11px;
+        background: linear-gradient(180deg, #a8b476 50%, #94a359 50%);
+        margin-top: 24px;
+        border-radius: 10px;
+        color: #fff;
+        line-height: 24px;
+        text-decoration: none;
+    }
+
+
+}

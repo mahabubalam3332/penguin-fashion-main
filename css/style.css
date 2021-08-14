@@ -23,7 +23,8 @@ body{
     margin:0 3%;
 }
 .content {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     justify-content: space-between;
     align-items: center;
     background: #FFFBF0;
@@ -53,7 +54,8 @@ nav ul a li {
 }
 /* banner-section */
 .banner-inner {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     justify-content: space-between;
     align-items: center;
     background: #FFFBF0;
@@ -90,7 +92,6 @@ a.btn:hover {
 }
 /* womens gallary */
 .body_section {
-    /* margin-top: 39px; */
     margin-left: 135px;
     margin-right: 135px;
     background: #fff;
@@ -114,7 +115,8 @@ a.btn:hover {
     text-transform: uppercase;
 }
 .womens-corner {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     justify-content: space-between;
     align-items: center;
 }
@@ -180,7 +182,8 @@ a.btn:hover {
     text-transform: uppercase;
 }
 .mens-corner {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
     justify-content: space-between;
     align-items: center;
 }
@@ -231,7 +234,8 @@ a.btn:hover {
 /* bottom-part */
 .bottom-inner {
     align-items: center;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     justify-content: space-between;
     padding: 39px 135px;
 }
