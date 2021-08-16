@@ -1,4 +1,5 @@
 @media only screen and (max-width:400px){
+    
     /* header */
     .content {
         grid-template-columns: repeat(1,1fr);
@@ -11,8 +12,12 @@
         padding:5px;
     }
     .banner-left h1 {
-        font-size: 40px;
-        text-transform: uppercase;
+        font-size: 60px;
+    }
+    .banner-left p {
+        font-size: 26px;
+        line-height: 38px;
+        font-family: var(--accent-fonts);
     }
     .banner-right img {
         width: 347px;
@@ -21,42 +26,45 @@
     .womens_inner {
         padding: 7px;
     }
-    .womens_title h2 {
-        font-size: 33px;
-        text-align: center;
-        line-height: 56px;
-        padding: 20px;
-        text-transform: uppercase;
-    }
     .womens-corner {
         grid-template-columns: repeat(1,1fr);
+    }
+    .womens_desplay p {
+        font-size: 26px;
+        line-height: 38px;
+        font-family: var(--accent-fonts);
     }
     /* mens-inner */
     .mens_inner{
         padding: 7px;
     }
-    .mens_title h2 {
-        font-size: 33px;
-        text-align: left;
-        line-height: 56px;
-        padding: 20px;
-        text-transform: uppercase;
-    }
     .mens-corner {
         grid-template-columns: repeat(1,1fr);
     }
+    .mens_desplay p {
+        font-size: 26px;
+        line-height: 38px;
+        font-family: var(--accent-fonts);
+    }
     /* bottom */
     .bottom-inner {
-        grid-template-columns: repeat(1,1fr);
         padding: 2px;
     }
-    .icon {
-        justify-content: start;
+    .bottom-inner {
+        justify-content: center;
+        padding: 2px;
+        flex-direction: column-reverse;
+    }
+    .icon_title p {
+        font-size: 18px;
+        line-height: 38px;
+        font-family: var(--accent-fonts);
     }
     .bottom_right img {
         width: 356px;
         padding: 10px;
     }
+    
     /* button */
     a.btn {
         display: inline-block;
@@ -69,6 +77,7 @@
         line-height: 24px;
         text-decoration: none;
     }
+
 }
 
 @media only screen and (min-width:792px) and (max-width:992px){
@@ -116,11 +125,23 @@
     }
     /* bottom */
     .bottom-inner {
-        grid-template-columns: repeat(2,1fr);
-        padding: 2px;
+        justify-content: center;
+        padding: 10px 10px;
+    }
+    .bottom_left {
+        display: flex;
+        flex-direction: row;
     }
     .icon {
-        justify-content: start;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+        border-radius: 20px;
+        flex-direction: column;
+    }
+    .icon_title p {
+        font-size: 19px;
+        font-family: var(--accent-fonts);
+        padding: 5px;
+        line-height: 26px;
     }
     .bottom_right img {
         width: 356px;
