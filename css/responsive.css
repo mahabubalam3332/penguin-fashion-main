@@ -79,6 +79,43 @@
     }
 
 }
+@media only screen and (max-width:700px){
+    .banner-inner {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        background: #FFFBF0;
+        padding:10px;
+    }
+    .banner-left h1 {
+        font-size: 63px;
+        font-weight: 700;
+        font-family: var(--secondary-fonts);
+        line-height: 65px;
+    }
+    /* womens corner */
+    .womens_inner {
+        padding: 0;
+    }
+    .womens-corner {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    /* mwns gallary */
+    .mens_inner {
+        padding: 0;
+    }
+    .mens-corner {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    /* bottom */
+    .bottom-inner {
+        flex-direction: column-reverse;
+        padding: 0;
+    }
+
+}
 
 @media only screen and (min-width:792px) and (max-width:992px){
     .content {
